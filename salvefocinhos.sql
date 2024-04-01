@@ -10,3 +10,12 @@ CREATE TABLE usuarios(
 	senha VARCHAR(255) NOT NULL,
 	ft_perfil VARCHAR(255)
 );
+
+CREATE TABLE postagem(
+	ft_public VARCHAR(255),
+	tex_pub VARCHAR(255) NOT NULL,
+	data_public date,
+	autor VARCHAR(255) NOT NULL
+);
+
+foto texto data autor 
