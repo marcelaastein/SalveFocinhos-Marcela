@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+    <main>
+        <div class="topbar">
+            <div class="logo">
+                <img src="imagens/logoocert.png" alt="logo" class="logotst">
+            </div>
+        </div>
+
+        <div class="centro">
+            <div class="sidebar"></div>
+            
+            <div class="lateralcentro">
+                <p class="titulocentro">Clique aqui para cadastrar sua ONG!</p>
+                <div class="botao" id="botao">
+                    <p class="botaoform">botao</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Formulário -->
+        <form class="formulario" id="formulario">
+            <h1>Doações que precisamos</h1>
+            <label class="campo">
+                ONG:
+                <input type="text" class="input_campo" id="ong">
+            </label>
+            <label class="campo">
+                Nome Completo:
+                <input type="text" class="input_campo" id="nome">
+            </label>
+            <label class="campo">
+                Email:
+                <input type="text" class="input_campo" id="email">
+            </label>
+            <label class="campo">
+                Produto:
+                <input type="text" class="input_campo" id="produto">
+            </label>
+            <input type="submit" class="enviar" id="enviar" value="Enviar">
+        </form>
+    </main>
+    <script src="formulario.js"></script>
+</body>
+</html>
